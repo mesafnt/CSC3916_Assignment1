@@ -22,8 +22,4 @@ app.listen(process.env.PORT || 8080);
 
 module.exports = app; // for testing
 
-
-
-
-
 //curl -d "echo" -H "Content-Type: text" -X POST http://localhost:8008

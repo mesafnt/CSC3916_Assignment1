@@ -44,8 +44,8 @@ server.on("request", (request, response) => {
         console.error(err);
     });
 });
-server.listen(process.env.PORT || 8080, () => {
-    console.log("Server listening at 8080");
+server.listen(process.env.PORT || 8008, () => {
+    console.log("Server listening at 8008");
 });
 
 module.exports = server; // for testing
